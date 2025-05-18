@@ -1,0 +1,11 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Firebase
+GoogleService-Info.plist

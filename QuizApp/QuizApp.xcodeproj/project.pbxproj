@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCF742C82DC6A47F00A61980 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCF742C72DC6A47F00A61980 /* GoogleService-Info.plist */; };
+		FCF742E22DC8956700A61980 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742E12DC8956700A61980 /* FirebaseCrashlytics */; };
+		FCF742E42DC8956B00A61980 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742E32DC8956B00A61980 /* FirebaseAnalytics */; };
+		FCF742E62DC8957600A61980 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742E52DC8957600A61980 /* FirebaseAnalyticsOnDeviceConversion */; };
+		FCF742E82DC8957A00A61980 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742E72DC8957A00A61980 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FCF742EA2DC8958000A61980 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742E92DC8958000A61980 /* FirebaseAppCheck */; };
+		FCF742EC2DC8958400A61980 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742EB2DC8958400A61980 /* FirebaseAppDistribution-Beta */; };
+		FCF742EE2DC8958800A61980 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742ED2DC8958800A61980 /* FirebaseCore */; };
+		FCF742F02DC8959200A61980 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742EF2DC8959200A61980 /* FirebaseDatabase */; };
+		FCF742F22DC8959900A61980 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742F12DC8959900A61980 /* FirebaseDynamicLinks */; };
+		FCF742F42DC8959E00A61980 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742F32DC8959E00A61980 /* FirebaseFirestore */; };
+		FCF742F62DC895BD00A61980 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742F52DC895BD00A61980 /* FirebaseAuth */; };
+		FCF742F82DC895BD00A61980 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742F72DC895BD00A61980 /* FirebaseAuthCombine-Community */; };
+		FCF742FA2DC895BD00A61980 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742F92DC895BD00A61980 /* FirebaseFirestoreCombine-Community */; };
+		FCF742FC2DC895BD00A61980 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742FB2DC895BD00A61980 /* FirebaseFunctions */; };
+		FCF742FE2DC895BD00A61980 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742FD2DC895BD00A61980 /* FirebaseFunctionsCombine-Community */; };
+		FCF743002DC895BD00A61980 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FCF742FF2DC895BD00A61980 /* FirebaseInAppMessaging-Beta */; };
+		FCF743022DC895BD00A61980 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743012DC895BD00A61980 /* FirebaseInstallations */; };
+		FCF743042DC895BD00A61980 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743032DC895BD00A61980 /* FirebaseMessaging */; };
+		FCF743062DC895BD00A61980 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743052DC895BD00A61980 /* FirebaseMLModelDownloader */; };
+		FCF743082DC895BD00A61980 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743072DC895BD00A61980 /* FirebasePerformance */; };
+		FCF7430A2DC895BD00A61980 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743092DC895BD00A61980 /* FirebaseRemoteConfig */; };
+		FCF7430C2DC895BD00A61980 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FCF7430B2DC895BD00A61980 /* FirebaseStorage */; };
+		FCF7430E2DC895BD00A61980 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FCF7430D2DC895BD00A61980 /* FirebaseStorageCombine-Community */; };
+		FCF743102DC895BD00A61980 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = FCF7430F2DC895BD00A61980 /* FirebaseVertexAI */; };
+		FCF743212DC8FFA700A61980 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743202DC8FFA700A61980 /* SDWebImage */; };
+		FCF743232DC8FFAE00A61980 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FCF743222DC8FFAE00A61980 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF7429A2DC6936F00A61980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF7427B2DC6936E00A61980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF742822DC6936E00A61980;
+			remoteInfo = QuizApp;
+		};
+		FCF742A42DC6936F00A61980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF7427B2DC6936E00A61980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF742822DC6936E00A61980;
+			remoteInfo = QuizApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCF742832DC6936E00A61980 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF742992DC6936F00A61980 /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF742A32DC6936F00A61980 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF742C72DC6A47F00A61980 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FCF742AB2DC6936F00A61980 /* Exceptions for "QuizApp" folder in "QuizApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FCF742822DC6936E00A61980 /* QuizApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FCF742852DC6936E00A61980 /* QuizApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FCF742AB2DC6936F00A61980 /* Exceptions for "QuizApp" folder in "QuizApp" target */,
+			);
+			path = QuizApp;
+			sourceTree = "<group>";
+		};
+		FCF7429C2DC6936F00A61980 /* QuizAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuizAppTests;
+			sourceTree = "<group>";
+		};
+		FCF742A62DC6936F00A61980 /* QuizAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuizAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF742802DC6936E00A61980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF743042DC895BD00A61980 /* FirebaseMessaging in Frameworks */,
+				FCF743102DC895BD00A61980 /* FirebaseVertexAI in Frameworks */,
+				FCF743232DC8FFAE00A61980 /* SDWebImageMapKit in Frameworks */,
+				FCF742FA2DC895BD00A61980 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				FCF743082DC895BD00A61980 /* FirebasePerformance in Frameworks */,
+				FCF7430E2DC895BD00A61980 /* FirebaseStorageCombine-Community in Frameworks */,
+				FCF7430A2DC895BD00A61980 /* FirebaseRemoteConfig in Frameworks */,
+				FCF742FC2DC895BD00A61980 /* FirebaseFunctions in Frameworks */,
+				FCF742E42DC8956B00A61980 /* FirebaseAnalytics in Frameworks */,
+				FCF742E62DC8957600A61980 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				FCF742E22DC8956700A61980 /* FirebaseCrashlytics in Frameworks */,
+				FCF742F42DC8959E00A61980 /* FirebaseFirestore in Frameworks */,
+				FCF742EA2DC8958000A61980 /* FirebaseAppCheck in Frameworks */,
+				FCF742EE2DC8958800A61980 /* FirebaseCore in Frameworks */,
+				FCF743022DC895BD00A61980 /* FirebaseInstallations in Frameworks */,
+				FCF742FE2DC895BD00A61980 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				FCF742F22DC8959900A61980 /* FirebaseDynamicLinks in Frameworks */,
+				FCF743062DC895BD00A61980 /* FirebaseMLModelDownloader in Frameworks */,
+				FCF742F82DC895BD00A61980 /* FirebaseAuthCombine-Community in Frameworks */,
+				FCF743002DC895BD00A61980 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				FCF742F62DC895BD00A61980 /* FirebaseAuth in Frameworks */,
+				FCF742E82DC8957A00A61980 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FCF7430C2DC895BD00A61980 /* FirebaseStorage in Frameworks */,
+				FCF742F02DC8959200A61980 /* FirebaseDatabase in Frameworks */,
+				FCF742EC2DC8958400A61980 /* FirebaseAppDistribution-Beta in Frameworks */,
+				FCF743212DC8FFA700A61980 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF742962DC6936F00A61980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF742A02DC6936F00A61980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF7427A2DC6936D00A61980 = {
+			isa = PBXGroup;
+			children = (
+				FCF742C72DC6A47F00A61980 /* GoogleService-Info.plist */,
+				FCF742852DC6936E00A61980 /* QuizApp */,
+				FCF7429C2DC6936F00A61980 /* QuizAppTests */,
+				FCF742A62DC6936F00A61980 /* QuizAppUITests */,
+				FCF742E02DC8956700A61980 /* Frameworks */,
+				FCF742842DC6936E00A61980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF742842DC6936E00A61980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF742832DC6936E00A61980 /* QuizApp.app */,
+				FCF742992DC6936F00A61980 /* QuizAppTests.xctest */,
+				FCF742A32DC6936F00A61980 /* QuizAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF742E02DC8956700A61980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF742822DC6936E00A61980 /* QuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF742AC2DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizApp" */;
+			buildPhases = (
+				FCF7427F2DC6936E00A61980 /* Sources */,
+				FCF742802DC6936E00A61980 /* Frameworks */,
+				FCF742812DC6936E00A61980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FCF742852DC6936E00A61980 /* QuizApp */,
+			);
+			name = QuizApp;
+			packageProductDependencies = (
+				FCF742E12DC8956700A61980 /* FirebaseCrashlytics */,
+				FCF742E32DC8956B00A61980 /* FirebaseAnalytics */,
+				FCF742E52DC8957600A61980 /* FirebaseAnalyticsOnDeviceConversion */,
+				FCF742E72DC8957A00A61980 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FCF742E92DC8958000A61980 /* FirebaseAppCheck */,
+				FCF742EB2DC8958400A61980 /* FirebaseAppDistribution-Beta */,
+				FCF742ED2DC8958800A61980 /* FirebaseCore */,
+				FCF742EF2DC8959200A61980 /* FirebaseDatabase */,
+				FCF742F12DC8959900A61980 /* FirebaseDynamicLinks */,
+				FCF742F32DC8959E00A61980 /* FirebaseFirestore */,
+				FCF742F52DC895BD00A61980 /* FirebaseAuth */,
+				FCF742F72DC895BD00A61980 /* FirebaseAuthCombine-Community */,
+				FCF742F92DC895BD00A61980 /* FirebaseFirestoreCombine-Community */,
+				FCF742FB2DC895BD00A61980 /* FirebaseFunctions */,
+				FCF742FD2DC895BD00A61980 /* FirebaseFunctionsCombine-Community */,
+				FCF742FF2DC895BD00A61980 /* FirebaseInAppMessaging-Beta */,
+				FCF743012DC895BD00A61980 /* FirebaseInstallations */,
+				FCF743032DC895BD00A61980 /* FirebaseMessaging */,
+				FCF743052DC895BD00A61980 /* FirebaseMLModelDownloader */,
+				FCF743072DC895BD00A61980 /* FirebasePerformance */,
+				FCF743092DC895BD00A61980 /* FirebaseRemoteConfig */,
+				FCF7430B2DC895BD00A61980 /* FirebaseStorage */,
+				FCF7430D2DC895BD00A61980 /* FirebaseStorageCombine-Community */,
+				FCF7430F2DC895BD00A61980 /* FirebaseVertexAI */,
+				FCF743202DC8FFA700A61980 /* SDWebImage */,
+				FCF743222DC8FFAE00A61980 /* SDWebImageMapKit */,
+			);
+			productName = QuizApp;
+			productReference = FCF742832DC6936E00A61980 /* QuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF742982DC6936F00A61980 /* QuizAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF742B12DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizAppTests" */;
+			buildPhases = (
+				FCF742952DC6936F00A61980 /* Sources */,
+				FCF742962DC6936F00A61980 /* Frameworks */,
+				FCF742972DC6936F00A61980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF7429B2DC6936F00A61980 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCF7429C2DC6936F00A61980 /* QuizAppTests */,
+			);
+			name = QuizAppTests;
+			packageProductDependencies = (
+			);
+			productName = QuizAppTests;
+			productReference = FCF742992DC6936F00A61980 /* QuizAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCF742A22DC6936F00A61980 /* QuizAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF742B42DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizAppUITests" */;
+			buildPhases = (
+				FCF7429F2DC6936F00A61980 /* Sources */,
+				FCF742A02DC6936F00A61980 /* Frameworks */,
+				FCF742A12DC6936F00A61980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF742A52DC6936F00A61980 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCF742A62DC6936F00A61980 /* QuizAppUITests */,
+			);
+			name = QuizAppUITests;
+			packageProductDependencies = (
+			);
+			productName = QuizAppUITests;
+			productReference = FCF742A32DC6936F00A61980 /* QuizAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF7427B2DC6936E00A61980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FCF742822DC6936E00A61980 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FCF742982DC6936F00A61980 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FCF742822DC6936E00A61980;
+					};
+					FCF742A22DC6936F00A61980 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FCF742822DC6936E00A61980;
+					};
+				};
+			};
+			buildConfigurationList = FCF7427E2DC6936E00A61980 /* Build configuration list for PBXProject "QuizApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF7427A2DC6936D00A61980;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FCF7431F2DC8FF7800A61980 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCF742842DC6936E00A61980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF742822DC6936E00A61980 /* QuizApp */,
+				FCF742982DC6936F00A61980 /* QuizAppTests */,
+				FCF742A22DC6936F00A61980 /* QuizAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF742812DC6936E00A61980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF742C82DC6A47F00A61980 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF742972DC6936F00A61980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF742A12DC6936F00A61980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF7427F2DC6936E00A61980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF742952DC6936F00A61980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF7429F2DC6936F00A61980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF7429B2DC6936F00A61980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF742822DC6936E00A61980 /* QuizApp */;
+			targetProxy = FCF7429A2DC6936F00A61980 /* PBXContainerItemProxy */;
+		};
+		FCF742A52DC6936F00A61980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF742822DC6936E00A61980 /* QuizApp */;
+			targetProxy = FCF742A42DC6936F00A61980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCF742AD2DC6936F00A61980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quizzy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCF742AE2DC6936F00A61980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quizzy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCF742AF2DC6936F00A61980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCF742B02DC6936F00A61980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF742B22DC6936F00A61980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizApp";
+			};
+			name = Debug;
+		};
+		FCF742B32DC6936F00A61980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizApp";
+			};
+			name = Release;
+		};
+		FCF742B52DC6936F00A61980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizApp;
+			};
+			name = Debug;
+		};
+		FCF742B62DC6936F00A61980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipek.QuizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF7427E2DC6936E00A61980 /* Build configuration list for PBXProject "QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF742AF2DC6936F00A61980 /* Debug */,
+				FCF742B02DC6936F00A61980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF742AC2DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF742AD2DC6936F00A61980 /* Debug */,
+				FCF742AE2DC6936F00A61980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF742B12DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF742B22DC6936F00A61980 /* Debug */,
+				FCF742B32DC6936F00A61980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF742B42DC6936F00A61980 /* Build configuration list for PBXNativeTarget "QuizAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF742B52DC6936F00A61980 /* Debug */,
+				FCF742B62DC6936F00A61980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		FCF7431F2DC8FF7800A61980 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCF742E12DC8956700A61980 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FCF742E32DC8956B00A61980 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FCF742E52DC8957600A61980 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		FCF742E72DC8957A00A61980 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FCF742E92DC8958000A61980 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		FCF742EB2DC8958400A61980 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		FCF742ED2DC8958800A61980 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		FCF742EF2DC8959200A61980 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FCF742F12DC8959900A61980 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		FCF742F32DC8959E00A61980 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FCF742F52DC895BD00A61980 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FCF742F72DC895BD00A61980 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		FCF742F92DC895BD00A61980 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		FCF742FB2DC895BD00A61980 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		FCF742FD2DC895BD00A61980 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		FCF742FF2DC895BD00A61980 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		FCF743012DC895BD00A61980 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		FCF743032DC895BD00A61980 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FCF743052DC895BD00A61980 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		FCF743072DC895BD00A61980 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		FCF743092DC895BD00A61980 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		FCF7430B2DC895BD00A61980 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FCF7430D2DC895BD00A61980 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		FCF7430F2DC895BD00A61980 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF742C92DC6A7B400A61980 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+		FCF743202DC8FFA700A61980 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF7431F2DC8FF7800A61980 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FCF743222DC8FFAE00A61980 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF7431F2DC8FF7800A61980 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FCF7427B2DC6936E00A61980 /* Project object */;
+}
